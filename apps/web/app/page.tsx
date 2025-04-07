@@ -5,3 +5,5 @@ export default async function Home() {
 
   return <div>{JSON.stringify(users)}</div>;
 }
+
+export const revalidate = 60;
